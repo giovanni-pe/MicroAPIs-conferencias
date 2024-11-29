@@ -2,7 +2,7 @@
 
 Este proyecto implementa una arquitectura de microservicios con microfrontends, comunicándose mediante un **API Gateway** y un **Event Bus** para manejar eventos asíncronos. Los microservicios están desacoplados, cada uno tiene su propia base de datos y son escalables de forma independiente.
 
-![BaseDe datos](imagen.png)
+![BaseDe datos](image.png)
 
 ## Requisitos del Sistema (Alto Nivel)
 
