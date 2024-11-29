@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  alpha-service:
+    build:
+      context: ./ponencias
+    ports:
+      - "80:3000"
+    restart: always
+    networks:
+      - nodejs-network
+
+  beta-service:
+    build:
+      context: ./cronograma
+    ports:
+      - "443:3001"
+    restart: always
+    networks:
+      - nodejs-network
+
+networks:
+  nodejs-network:
+    driver: bridge
