@@ -1,8 +1,13 @@
 # Proyecto de Arquitectura de Microservicios con Microfrontends
 
 Este proyecto implementa una arquitectura de microservicios con microfrontends, comunicándose mediante un **API Gateway** y un **Event Bus** para manejar eventos asíncronos. Los microservicios están desacoplados, cada uno tiene su propia base de datos y son escalables de forma independiente.
+## Video Explicacion
 
-![BaseDe datos](image.png)
+[![Mira el video](https://img.youtube.com/vi/cPlr9ulet44/0.jpg)](https://youtu.be/cPlr9ulet44?si=fQCFl4jWxCy-EIca)
+
+
+![Infraetructura](image.png)
+
 
 ## Requisitos del Sistema (Alto Nivel)
 
